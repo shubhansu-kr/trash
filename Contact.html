@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlineSale</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div>
+                <img src="images/logo.jpg" alt="Mobile Fiber">
+            </div>
+            <ul>
+                <img src="images/home logo.png" >
+                <li class="item"> <a href="index.html">HOME</a></li>
+                <img src="images/about logo.png" >
+                <li class="item"> <a href="About.html">ABOUT US</a></li>
+                <img src="images/services logo.png" >
+                <li class="item"> <a href="Products.html">PRODUCTS</a></li>
+                <img src="images/client logo.png" >
+                <li class="item"> <a href="Customer.html">CUSTOMERS</a></li>
+                <img src="images/contact us logo.png" >
+                <li class="item"> <a href="#Contact1">CONTACT</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section id="Contact1">
+        <section id="Contact">
+            <h1>Contact Us</h1>
+            <div id="contact_container">
+                <div class="contact_items">
+                    <img src="images/contact1.jpg.png" alt="contact">
+                    <h2>BY PHONE</h2>
+                    <h3>(Monday to Friday, 9am to 4pm PST)</h3>
+                    <p> North America Toll-Free: <span>1-877-930-7483</span> </p>
+                </div>
+                <div class="contact_items">
+                    <img src="images/contact2.jpg.png" alt="contact">
+                    <h2>START A NEW CASE </h2>
+                    <p>Just send us your questions or concerns by starting a new case and we will give you the help you
+                        need.</p>
+                    <a href="form.html">START HERE</a>
+                </div>
+                <div class="contact_items">
+                    <img src="images/contact3.jpg.png" alt="contact">
+                    <h2>LIVE CHAT</h2>
+                    <p>Chat with a member of our in-house team.</p>
+                    <button class="open-button" onclick="openForm()">Chat</button>
+
+                    <div class="chat-popup" id="myForm">
+                        <form action="/action_page.php" class="form-container">
+                            <h1>Chat</h1>
+                            <label for="msg"><b>Message</b></label>
+                            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                            <button type="submit" class="btn">Send</button>
+                            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        </form>
+                    </div>
+                    <script>
+                        function openForm() {
+                            document.getElementById("myForm").style.display = "block";
+                        }
+
+                        function closeForm() {
+                            document.getElementById("myForm").style.display = "none";
+                        }
+                    </script>
+
+                </div>
+            </div>
+        </section>
+        <section id="Section1">
+            <div id="Container">
+                <h1>Track a Case</h1>
+                <p>View your thread of messages with our support team.</p>
+                <form action="">
+                    <table>
+                        <tr>
+                            <td><input type="text" placeholder="Case Number"></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" placeholder="Email Address"></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </section>
+        <div id="footer">
+            <h1>Our Company Address</h1>
+            <div>
+                <img src="images/address.jpg" alt="">
+                <div id="footer_id">
+                    <h3>Mobile Fiber.com Inc.</h3>
+                    <p>
+                        Street: 3610 Dye Street <br>
+                        City: Phoenix <br>
+                        State/province/area: Arizona <br>
+                        Phone number 480-682-2097 <br>
+                        Country United States
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

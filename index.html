@@ -1,12 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OnlineSale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    Hello Everyone 
+
+
+    <div id="navigation">
+        <nav id="navbar">
+            <div>
+                <img src="images/logo.jpg" alt="Mobile Fiber">
+            </div>
+            <ul>
+                <img src="images/home logo.png">
+                <li class="item"> <a href="#HomePage">HOME</a></li>
+                <img src="images/about logo.png">
+                <li class="item"> <a href="About.html">ABOUT US</a></li>
+                <img src="images/services logo.png">
+                <li class="item"> <a href="Products.html">PRODUCTS</a></li>
+                <img src="images/client logo.png">
+                <li class="item"> <a href="Customer.html">CUSTOMERS</a></li>
+                <img src="images/contact us logo.png">
+                <li class="item"> <a href="Contact.html">CONTACT</a></li>
+                <li id="icon_list">
+                    <div id="icon">
+                        <img src="images/three dot icon.jpg" alt="">
+                        <div id="dropdown">
+                            <ul>
+                                <li><a href="login.html">LOGIN</a></li>
+                                <li><a href="sign.html">SIGN UP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    </div>
+    <section id="HomePage">
+        <div id="intro">
+            <img src="images/backgroundimage.jpg">
+            <iframe width="100%" height="600"
+                src="https://www.youtube.com/embed/yXPuL8y3N1w?rel=0&autoplay=1&mute=1&controls=1"></iframe>
+        </div>
+        <section id="Home">
+            <p id="text">TOP DEALS</p>
+            <div class="container">
+
+                <div class="container_items" id="laptop">
+                    <img src="images/lappy2.jpg" alt="Laptop">
+                    <div>
+                        <h1>DELL INSPIRON</h1>
+                        <h2>Specifications</h2>
+                        <ul>
+                            <li>Display 15.6 Inches</li>
+                            <li>Processor Intel Core I7</li>
+                            <li>RAM 8GB</li>
+                            <li>Storage 512SSD</li>
+                            <li>Graphics Card 2gb NVIDIA</li>
+                        </ul>
+                        <img src="images/ratings1.jpg" alt="">
+                    </div>
+                    <h1 class="price"> <ins>$300</ins> <del>$600</del>
+                        <p>(50% off)</p>
+                    </h1>
+                    <button>ADD TO CART</button>
+                    <div class="shop"> <a href="">Shop now</a></div>
+
+                </div>
+                <div class="container_items"><img src="images/mobile1.jpg" alt="smartphone">
+                    <div>
+                        <h1>REALME 8</h1>
+                        <h2>Specifications</h2>
+                        <ul>
+                            <li>Display 6.5 Inches</li>
+                            <li>Processor MediaTek Helio G85 </li>
+                            <li>RAM 4GB</li>
+                            <li>Storage 128GB</li>
+                            <li>Camera 50MP+2MP+2MP</li>
+                        </ul>
+                        <img src="images/ratings1.jpg" alt="">
+                    </div>
+                    <h1 class="price"> <ins>$200</ins> <del>$400</del>
+                        <p>(50% off)</p>
+                    </h1>
+                    <button>ADD TO CART</button>
+                    <div class="shop"> <a href="">Shop now</a></div>
+                </div>
+                <div class="container_items"><img src="images/mobile2.jpg" alt="smartphone">
+                    <div>
+                        <h1>VIVO Y15</h1>
+                        <h2>Specifications</h2>
+                        <ul>
+                            <li>Display 6.5 Inches</li>
+                            <li>Processor MediaTek Helio G85 </li>
+                            <li>RAM 6GB</li>
+                            <li>Storage 128GB</li>
+                            <li>Camera 48MP+2MP+4MP</li>
+                        </ul>
+                        <img src="images/ratings1.jpg" alt="rating">
+                    </div>
+                    <h1 class="price"> <ins>$100</ins> <del>$200</del>
+                        <p>(50% off)</p>
+                    </h1>
+                    <button>ADD TO CART</button>
+                    <div class="shop"> <a href="#">Shop now</a></div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="section1">
+            <div class="bottom">
+                <img src="images/free shipping.jpg" alt="Free Shipping">
+                <p>FREE SHIPPING</p>
+                <div>on order above $100</div>
+            </div>
+            <div class="bottom">
+                <img src="images/premium product.jpg" alt="Quality product">
+                <p>PREMIUM</p>
+                <div>quality products</div>
+            </div>
+            <div class="bottom">
+                <img src="images/support.jpg" alt="Support">
+                <p>SUPPORT</p>
+                <div>24/7 support</div>
+            </div>
+        </section>
+        <section id="Section2">
+            <h1>Our Customers Love Us</h1>
+            <p>At Mobile Fiber.com, your opinion is truly valued. We strive to provide you with the Premium Products.
+                Read authentic and unedited reviews collected directly by Shopper Approved.</p>
+            <div id="rating">
+                <div id="box">
+                    <p>4.6</p>
+                    <hr>
+                    <p>out of 5</p>
+                </div>
+                <div>
+                    <p>Overall Rating</p>
+                    <img src="images/rating.jpg" alt="Our Rating">
+                </div>
+            </div>
+        </section>
+    </section>
 </body>
+
 </html>

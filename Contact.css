@@ -1,0 +1,354 @@
+/*navigation bar styling*/
+#navbar {
+    display: flex;
+    background-color: black;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: white;
+    box-shadow: 2px 2px 10px 2px lightcoral;
+}
+
+.item {
+    margin: 0;
+    padding: 8px 30px;
+}
+
+#navbar ul img {
+
+    height: 37px;
+    width: 37px;
+    filter: invert();
+}
+
+#navbar img {
+    height: 70px;
+    width: 170px;
+    filter: invert();
+}
+
+#Contact {
+    background-color: rgb(209, 199, 199);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Contact h1 {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contact_container {
+    display: flex;
+}
+
+.contact_items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.contact_items img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact_items img:hover {
+    width: 150px;
+    height: 150px;
+}
+
+.contact_items h2 {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.contact_items p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.contact_items a {
+    background-color: white;
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Baloo Bhaina 2';
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.contact_items a:hover {
+    box-shadow: 2px 2px 20px black;
+    background-color: aliceblue;
+}
+
+span {
+    display: block;
+}
+
+#Section1 {
+    height: 500px;
+    background-color: aliceblue;
+}
+
+#Section1:hover {
+    box-shadow: 2px 2px 20px 2px black;
+}
+
+#Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Container h1 {
+    font-size: 70px;
+}
+
+#Container p {
+    font-size: 30px;
+    margin-top: -40px;
+}
+
+input[type="text"],
+[type="email"] {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 305px;
+    height: 50px;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 2px 2px 20px 2px black;
+    background-color: rgb(252, 218, 218);
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 242, 222);
+}
+
+#footer:hover {
+    box-shadow: 2px 2px 20px 2px black;
+}
+
+#footer h1 {
+    font-size: 50px;
+}
+
+#footer div {
+    display: flex;
+}
+
+#footer div img {
+    width: 200px;
+    height: 200px;
+}
+
+#footer_id {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#footer_id h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/*styling of chat box*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.open-button {
+    cursor: pointer;
+    background-color: white;
+    font-size: x-large;
+    font-family: 'Baloo Bhaina 2';
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.open-button:hover {
+    box-shadow: 2px 2px 20px 2px black;
+}
+
+
+.chat-popup {
+    border-radius: 20px;
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    color: white;
+    text-align: center;
+}
+
+.chat-popup:hover {
+    box-shadow: 2px 2px 20px 2px black;
+}
+
+.form-container {
+    border-radius: 20px;
+    max-width: 300px;
+    padding: 10px;
+    background-color: black;
+}
+
+
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    min-height: 200px;
+    resize: none;
+}
+
+
+
+
+.form-container .btn {
+    border-radius: 20px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+
+.form-container .cancel {
+    background-color: red;
+}
+
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+/*media query*/
+@media screen and (max-width:1224px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #contact_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .contact_items {
+        width: auto;
+        height: auto;
+    }
+
+    #Section1 {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    #Container {
+        width: 100%;
+        height: auto;
+    }
+
+    input[type="text"],
+    [type="email"] {
+        width: 200px;
+        height: 50px;
+    }
+
+    input[type="submit"] {
+        width: 200px;
+        height: 50px;
+    }
+
+    #footer {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    #footer div img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #footer_id p {
+        font-size: medium;
+    }
+
+}

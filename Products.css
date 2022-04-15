@@ -1,0 +1,525 @@
+/*styling navigation bar*/
+#navbar {
+  display: flex;
+  background-color: black;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  border-radius: 15px;
+  padding: 7px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 2px lightskyblue;
+}
+
+.item {
+  margin: 0;
+  padding: 8px 30px;
+}
+
+#navbar ul img {
+
+  height: 37px;
+  width: 37px;
+  filter: invert();
+}
+
+#navbar img {
+  height: 70px;
+  width: 170px;
+  filter: invert();
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 9px 10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px 2px lightskyblue;
+}
+
+#Products {
+  background-color: brown;
+}
+
+#Mobiles {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Mobile_items {
+  display: flex;
+  background-color: brown;
+}
+
+.Mobile_div {
+  margin: 7px 7px;
+  /* background-color:rgb(199, 215, 230); */
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 670px;
+}
+
+.Mobile_div:hover {
+  box-shadow: 2px 2px 40px 2px black;
+}
+
+.shop {
+  /* border:2px solid red; */
+  width: 200px;
+  background-color: thistle;
+  border-radius: 10px;
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.shop a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.Mobile1 {
+  display: flex;
+}
+
+.Mobile1 p {
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.Mobile1 img {
+  margin: 10px 10px;
+  width: 260px;
+  height: 440px;
+}
+
+.shop:hover {
+  box-shadow: 2px 2px 20px 2px black;
+}
+
+.shop a:hover {
+  font-size: 25px;
+}
+
+.Heading {
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+
+}
+
+#Laptops {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Laptops_items {
+  display: flex;
+  background-color: brown;
+}
+
+.Laptops_div {
+  margin: 7px 7px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+}
+
+.Laptops_div:hover {
+  box-shadow: 2px 2px 40px 2px black;
+}
+
+.Laptops1 {
+  display: flex;
+}
+
+.Laptops1 p {
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.Laptops1 img {
+  margin: 10px 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.hover:hover {
+  width: 250px;
+  height: 250px;
+}
+
+.Laptop_class {
+  /* border:2px solid red; */
+  width: 200px;
+  background-color: thistle;
+  border-radius: 10px;
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Laptop_class:hover {
+  box-shadow: 2px 2px 20px 2px black;
+}
+
+.Laptop_class a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.Laptop1_class {
+  /* border:2px solid red; */
+  width: 200px;
+  background-color: thistle;
+  border-radius: 10px;
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Laptop1_class:hover {
+  box-shadow: 2px 2px 20px 2px black;
+}
+
+.Laptop1_class a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.Laptop_class a:hover {
+  font-size: 25px;
+}
+
+.Laptop1_class a:hover {
+  font-size: 25px;
+}
+
+.price ins {
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search h1 {
+  text-align: center;
+}
+
+#search1 {
+  margin-left: 500px;
+}
+
+#search2 {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+#search2:hover {
+  box-shadow: 2px 2px 30px black;
+  border-radius: 30px;
+}
+
+#search2 form input {
+  height: 40px;
+  border-color: white;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#cart a img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  filter: invert();
+}
+
+#cart a img:hover {
+  filter: grayscale();
+  width: 50px;
+  height: 50px;
+}
+
+.Mobile1 div h1 {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.Laptops1 div h1 {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.Mobile1 li {
+  font-size: 20px;
+  margin: 20px 20px;
+}
+
+.Laptops1 li {
+  font-size: 20px;
+  margin: 20px 20px;
+}
+
+.Mobile1 div img {
+  width: 200px;
+  height: 40px;
+}
+
+.Laptops1 div img {
+  width: 200px;
+  height: 40px;
+}
+
+button {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: turquoise;
+}
+
+.button {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: turquoise;
+  margin-top: 0px;
+}
+
+button:hover {
+  background-color: yellowgreen;
+  font-style: italic;
+  box-shadow: 2px 2px 20px 2px black;
+}
+
+/*media queries*/
+@media screen and (max-width:1340px) {
+  .search h1 {
+    font-size: medium;
+    text-align: center;
+  }
+
+  #search2 form input {
+    height: max-content;
+    font-size: medium;
+  }
+
+  #search1 {
+    margin-left: auto;
+  }
+
+}
+
+@media screen and (max-width:524px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Mobile_items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Laptops_items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search h1 {
+    font-size: xx-small;
+    text-align: center;
+  }
+
+  #search2 form input {
+    height: fit-content;
+    font-size: xx-small;
+  }
+
+  #search1 {
+    margin-left: auto;
+  }
+
+  .Mobile1 li {
+    font-size: 8px;
+    margin: auto;
+  }
+
+  .Laptops1 li {
+    font-size: 8px;
+    margin: auto;
+  }
+
+  .Mobile1 div h1,
+  h2 {
+    font-size: 8px;
+  }
+
+  .Laptops1 div h1,
+  h2 {
+    font-size: 8px;
+  }
+
+  .Mobile1 div img {
+    width: 80px;
+    height: 40px;
+  }
+
+  .Laptops1 div img {
+    width: 80px;
+    height: 40px;
+  }
+
+  .Mobile1 img {
+    margin: 10px 10px;
+    width: 100px;
+    height: 170px;
+  }
+
+  .Laptops1 img {
+    margin: 10px 10px;
+    width: 100px;
+    height: 170px;
+  }
+
+  .Mobile_div {
+    height: auto;
+  }
+
+  .Laptops_div {
+    height: auto;
+  }
+
+  .shop {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .Laptop_class {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  button {
+    width: fit-content;
+    height: fit-content;
+    font-size: small;
+  }
+
+}
+
+@media screen and (min-width:524px) and (max-width:1647px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Mobile_items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Laptops_items {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
